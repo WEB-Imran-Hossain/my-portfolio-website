@@ -31,7 +31,7 @@ const Header = () => {
             isPending ? "pending" : isActive ? "active" : "hover:bg-inherit hover:text-[#7EBC12]"
           }
         >
-          OUR SKILL
+          MY SKILL
         </NavLink>
       </li>
       <li>
