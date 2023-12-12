@@ -2,7 +2,7 @@ import { FaCode } from "react-icons/fa";
 const Home = () => {
   return (
     <div className="hero min-h-screen bg-[#1D2833]">
-      <div className="hero-content flex-col lg:flex-row-reverse items-center">
+      <div className="hero-content flex-col lg:flex-row-reverse items-center ">
         <div>
           <iframe
             className="lg:w-[40rem] h-[40rem]"
