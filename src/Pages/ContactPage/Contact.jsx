@@ -1,9 +1,13 @@
-import React from 'react';
+
+import { BsEnvelopeOpen, BsTelephone } from 'react-icons/bs';
+import { GrLocation } from "react-icons/gr";
+import { TfiTimer } from "react-icons/tfi";
 
 const Contact = () => {
     return (
-        <div className='flex justify-center md:mt-10 md:mb-10'>
+        <div className='flex items-center justify-center md:mt-32 md:mb-10 gap-20'>
            <div>
+         
            <form className="card-body md:w-[35rem] md:p-0 mb-10 flex justify-between">
                             <h1 className="text-4xl font-semibold text-black font-Rajdhani">
                                 Get in Touch!
@@ -80,6 +84,39 @@ const Contact = () => {
                             </div>
                         </form>
            </div>
+           <div
+          className="flex items-center justify-center"
+        >
+          <div className=" space-y-5">
+            <div className="space-y-3 flex flex-col items-center">
+              <GrLocation className="text-3xl"></GrLocation>
+              <h2 className="text-2xl font-semibold text-black">Address</h2>
+              <p className="text-lg font-normal text-[#737373]">
+                Bogura, Bangladesh.
+              </p>
+            </div>
+            <hr />
+            <div className="space-y-3 flex flex-col items-center">
+              <BsEnvelopeOpen className="text-3xl"></BsEnvelopeOpen>
+              <h2 className="text-2xl font-semibold text-black">
+                Email address
+              </h2>
+              <p className="text-lg font-normal link link-hover text-[#737373]">
+                webimran2021@gmail.com <br />
+              </p>
+            </div>
+            <hr />
+
+            <div className="space-y-3 flex flex-col items-center">
+              <BsTelephone className="text-3xl"></BsTelephone>
+              <h2 className="text-2xl font-semibold text-black">Telephone</h2>
+              <p className="text-lg font-normal link link-hover text-[#737373]">
+                + 880 01744345144
+              </p>
+            </div>
+           
+          </div>
+        </div>
         </div>
     );
 };
