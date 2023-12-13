@@ -12,7 +12,7 @@ const Banner = () => {
             ></iframe>
           </div>
           {/* text info */}
-          <div className="text-white -mt-36 md:ml-10 mb-10">
+          <div className="text-white -mt-40 lg:mt-20 md:-mt-36 md:ml-10 mb-10">
             <div className="flex items-center gap-3 text-[#7EBC12]">
               <FaCode />
               <p className="text-base font-bold">Introducing</p>
