@@ -12,7 +12,7 @@ const EducationalBackground = () => {
       />
       <div
         role="tabpanel"
-        className="tab-content bg-base-100 border-base-300 rounded-box p-6"
+        className="tab-content bg-base-100 border-base-300 rounded-box p-6 w-96 md:w-full"
       >
         <h4 className="font-bold">NATIONAL UNIVERSITY</h4>
         <h5 className="">[Masters of Social Science (MSS) Economics] </h5>
@@ -29,7 +29,7 @@ const EducationalBackground = () => {
       />
       <div
         role="tabpanel"
-        className="tab-content bg-base-100 border-base-300 rounded-box p-6"
+        className="tab-content bg-base-100 border-base-300 rounded-box p-6 w-96 md:w-full"
       >
           <h4 className="font-bold">NATIONAL UNIVERSITY</h4>
         <h5>[Bachelor of Social Science (BSS) Economics]  </h5>

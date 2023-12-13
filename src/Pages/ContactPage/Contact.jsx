@@ -91,26 +91,26 @@ const Contact = () => {
             <div className="space-y-3 flex flex-col items-center">
               <GrLocation className="text-3xl"></GrLocation>
               <h2 className="text-2xl font-semibold text-black">Address</h2>
-              <p className="text-lg font-normal text-[#737373]">
+              <p className="text-lg font-normal">
                 Bogura, Bangladesh.
               </p>
             </div>
             <hr />
-            <div className="space-y-3 flex flex-col items-center">
+            <div className="space-y-3 flex flex-col items-center mt-5">
               <BsEnvelopeOpen className="text-3xl"></BsEnvelopeOpen>
               <h2 className="text-2xl font-semibold text-black">
-                Email address
+                Email
               </h2>
-              <p className="text-lg font-normal link link-hover text-[#737373]">
+              <p className="text-lg font-normal link link-hover">
                 webimran2021@gmail.com <br />
               </p>
             </div>
             <hr />
 
-            <div className="space-y-3 flex flex-col items-center">
+            <div className="space-y-3 flex flex-col items-center mt-5">
               <BsTelephone className="text-3xl"></BsTelephone>
               <h2 className="text-2xl font-semibold text-black">Telephone</h2>
-              <p className="text-lg font-normal link link-hover text-[#737373]">
+              <p className="text-lg font-normal link link-hover">
                 + 880 01744345144
               </p>
             </div>
