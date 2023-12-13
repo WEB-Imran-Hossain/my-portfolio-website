@@ -8,7 +8,7 @@ const Contact = () => {
         <div className='flex flex-col md:flex-row lg:flex-row items-center justify-center md:mt-32 gap-20'>
            <div>
          
-           <form className="card-body md:w-[35rem] md:p-0 mb-10 flex justify-between">
+           <form className="card-body md:w-[35rem] md:p-0 mb-10 flex justify-between mt-32">
                             <h1 className="text-4xl font-semibold text-black font-Rajdhani">
                                 Get in Touch!
                             </h1>
