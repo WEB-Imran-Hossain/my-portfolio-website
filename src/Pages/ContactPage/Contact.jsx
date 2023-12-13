@@ -87,7 +87,7 @@ const Contact = () => {
            <div
           className="flex items-center justify-center"
         >
-          <div className=" space-y-5 mb-10">
+          <div className=" mb-10">
             <div className="space-y-3 flex flex-col items-center">
               <GrLocation className="text-3xl"></GrLocation>
               <h2 className="text-2xl font-semibold text-black">Address</h2>
