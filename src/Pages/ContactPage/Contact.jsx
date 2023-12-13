@@ -5,7 +5,7 @@ import { TfiTimer } from "react-icons/tfi";
 
 const Contact = () => {
     return (
-        <div className='flex flex-col md:flex-row lg:flex-row items-center justify-center mb-10 md:mt-32 md:mb-10 gap-20'>
+        <div className='flex flex-col md:flex-row lg:flex-row items-center justify-center md:mt-32 md:mb-10 gap-20'>
            <div>
          
            <form className="card-body md:w-[35rem] md:p-0 mb-10 flex justify-between">
@@ -87,7 +87,7 @@ const Contact = () => {
            <div
           className="flex items-center justify-center"
         >
-          <div className=" space-y-5">
+          <div className=" space-y-5 mb-10">
             <div className="space-y-3 flex flex-col items-center">
               <GrLocation className="text-3xl"></GrLocation>
               <h2 className="text-2xl font-semibold text-black">Address</h2>
