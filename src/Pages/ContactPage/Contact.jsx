@@ -5,10 +5,10 @@ import { TfiTimer } from "react-icons/tfi";
 
 const Contact = () => {
     return (
-        <div className='flex flex-col md:flex-row lg:flex-row items-center justify-center md:mt-32 gap-20'>
+        <div className='flex flex-col md:flex-row lg:flex-row items-center justify-center md:mt-32 gap-20 mt-32'>
            <div>
          
-           <form className="card-body md:w-[35rem] md:p-0 mb-10 flex justify-between mt-32">
+           <form className="card-body md:w-[35rem] md:p-0 mb-10 flex justify-between ">
                             <h1 className="text-4xl font-semibold text-black font-Rajdhani">
                                 Get in Touch!
                             </h1>
