@@ -11,8 +11,8 @@ const About = () => {
     const [typeEffect]=useTypewriter({
         words: ['MERN Stack', 'Front-End', 'React'],
         loop:{},
-        typeSpeed: 700,
-        delaySpeed: 40
+        typeSpeed: 100,
+        delaySpeed: 1500
     })
     return (
   <div>
