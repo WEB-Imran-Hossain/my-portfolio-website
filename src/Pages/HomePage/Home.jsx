@@ -1,4 +1,5 @@
 import About from "../AboutPage/About";
+import MySkill from "../MySkillPage/MySkill";
 import Banner from "./Banner";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
   <div>
     <Banner></Banner>
     <About></About>
+    <MySkill></MySkill>
   </div>
   );
 };
