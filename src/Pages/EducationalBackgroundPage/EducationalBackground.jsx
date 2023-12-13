@@ -1,8 +1,8 @@
 const EducationalBackground = () => {
   return (
-    <div className="max-w-[50vw] mx-auto mt-32">
+    <div className="lg:max-w-[50vw] mx-auto mt-32">
         <h2 className="text-4xl md:text-5xl font-bold text-[#1D2833] font-Rajdhani text-center">Educational Background</h2>
-        <div role="tablist" className="tabs tabs-lifted mt-10">
+        <div role="tablist" className="tabs tabs-lifted mt-10 p-5">
       <input
         type="radio"
         name="my_tabs_2"
@@ -12,7 +12,7 @@ const EducationalBackground = () => {
       />
       <div
         role="tabpanel"
-        className="tab-content bg-base-100 border-base-300 rounded-box p-6 w-96 md:w-full"
+        className="tab-content bg-base-100 border-base-300 rounded-box p-6 md:w-full"
       >
         <h4 className="font-bold">NATIONAL UNIVERSITY</h4>
         <h5 className="">[Masters of Social Science (MSS) Economics] </h5>
@@ -29,7 +29,7 @@ const EducationalBackground = () => {
       />
       <div
         role="tabpanel"
-        className="tab-content bg-base-100 border-base-300 rounded-box p-6 w-96 md:w-full"
+        className="tab-content bg-base-100 border-base-300 rounded-box p-6 md:w-full"
       >
           <h4 className="font-bold">NATIONAL UNIVERSITY</h4>
         <h5>[Bachelor of Social Science (BSS) Economics]  </h5>
