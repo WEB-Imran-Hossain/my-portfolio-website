@@ -48,7 +48,7 @@ const About = () => {
               </Link>
             </div>
           </div>
-          <div className="relative ml-14">
+          <div className="relative lg:ml-14">
             <div>
               <img
                 data-aos="fade-right"
@@ -60,7 +60,7 @@ const About = () => {
               <iframe
                 data-aos="fade-left"
                 src="https://lottie.host/embed/5e4ef915-95eb-4f1e-9c0f-9777afe21525/XEzZ7j8i8f.json"
-                className="w-4/5 h-4/6 rounded shadow-2xl absolute  lg:top-24 lg:-left-64 top-28 -left-12 bottom-0 glass"
+                className="w-4/5 h-4/6 rounded shadow-2xl absolute  lg:top-24 lg:-left-64 top-28 -left-12 bottom-0 glass hidden md:hidden lg:block"
               />
             </div>
             <div className="mt-3">

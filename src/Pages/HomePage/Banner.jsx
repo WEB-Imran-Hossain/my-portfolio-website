@@ -7,12 +7,12 @@ const Banner = () => {
           {/* background animation */}
           <div>
             <iframe
-              className="lg:w-[40rem] h-[40rem]"
+              className="lg:w-[40rem] h-[40rem] md:mt-5 -mt-32"
               src="https://lottie.host/embed/c306ec8e-0747-4c4f-aff6-0a209c79bcea/6Vjko7kP83.json"
             ></iframe>
           </div>
           {/* text info */}
-          <div className="text-white">
+          <div className="text-white -mt-36 md:ml-10 mb-10">
             <div className="flex items-center gap-3 text-[#7EBC12]">
               <FaCode />
               <p className="text-base font-bold">Introducing</p>

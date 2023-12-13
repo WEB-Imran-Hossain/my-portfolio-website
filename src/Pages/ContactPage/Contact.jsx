@@ -2,14 +2,14 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='flex justify-center'>
+        <div className='flex justify-center md:mt-10 md:mb-10'>
            <div>
            <form className="card-body md:w-[35rem] md:p-0 mb-10 flex justify-between">
                             <h1 className="text-4xl font-semibold text-black font-Rajdhani">
                                 Get in Touch!
                             </h1>
                             <div className="md:flex mb-5 gap-2">
-                                <div className="form-control w-1/2">
+                                <div className="form-control md:w-1/2">
                                     <label className="label">
                                         <span className="label-text">Name</span>
                                     </label>
@@ -21,7 +21,7 @@ const Contact = () => {
                                         required
                                     />
                                 </div>
-                                <div className="form-control w-1/2">
+                                <div className="form-control md:w-1/2">
                                     <label className="label">
                                         <span className="label-text">Email</span>
                                     </label>
@@ -35,7 +35,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="md:flex mb-5 gap-2">
-                                <div className="form-control w-1/2">
+                                <div className="form-control md:w-1/2">
                                     <label className="label">
                                         <span className="label-text">Phone</span>
                                     </label>
@@ -47,7 +47,7 @@ const Contact = () => {
                                         required
                                     />
                                 </div>
-                                <div className="form-control w-1/2">
+                                <div className="form-control md:w-1/2">
                                     <label className="label">
                                         <span className="label-text">Address</span>
                                     </label>
