@@ -38,7 +38,7 @@ const About = () => {
               </div>
 
               <Link
-                to="https://drive.google.com/uc?export=download&id=1uP9MI9pSkl5e0139lCCdXbwTsm70OVjo"
+                to="https://drive.google.com/uc?export=download&id=1UZkt5fG_1yQCJLp2l7HJJH6SWA11RsyK"
                 target="_blank"
               >
                 <button className="btn hover:bg-transparent mt-3 text-white bg-[#7EBC12] border-[#7EBC12] hover:bg-[#1D2833] hover:border-[#1D2833] hover:text-black text-lg font-semibold rounded-none uppercase font-Rajdhani ">
